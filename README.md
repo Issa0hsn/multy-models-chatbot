@@ -6,8 +6,8 @@ this chatbot use qwen 3.5 -2b as a local model and gpt5 by api.
 ______________________________________________________________________________________________________________________________________________________________________
 ## 1-AI principles: 
 LLMs: I learned about language models and how it generate the text ,it turns out that it predicts the next word baswd on its posiblity and on some pramters like "temperature" "top_p" "top_k".
-Model Size & Precision : the power of the model generaly dependence on its size and how it is loaded (16 byte ,32byte....)
-Context Length: models don't understands the human words instead it convert it to "tokens" , the more "token" it use the more it working to generate the answer.
+Model Size & Precision : the power of the model generaly dependence on its size and how it is loaded (16 bit,INY8....)
+Context Length: models don't understands the human words instead it convert it to "tokens" , the more "token" it use the large amount of memory (KV Cashe) it needs to handel to generate the answer.
 
 ## 2-Ecosystem:
 Hugging Face: the most important tool for any ML project it helps me comparing the models hosting the project and watching other peopel progect and inspired by.
@@ -19,11 +19,12 @@ infrence (cpu vs gpu): there is massive difference in speed between cpu and gpu
 
 # Technical Challenges and Solutions:
 ## 1-OOM:
-big models on a small spaces would be allways cause this problem so I choise a suitable model fore memory size and cpu power.
+big models on a insufficient memory(RAM/VRAM) would be allways cause this problem so I choise a suitable model fore memory size and cpu power.
 
 # how to run:
 __________________________________________________________________________________________________________________________________________________________________
-git clone ....
+git clone https://github.com/Issa0hsn/multy-models-chatbot 
+cd chatbot
 pip install -r requirements.txt
 
 or go to https://huggingface.co/spaces/isahsn/MultyModelsChatcot
