@@ -1,0 +1,9 @@
+# نثبّت Gradio على الإصدار 5 لأن الإصدار 6 يفعّل وضع SSR التجريبي الذي يشغّل التطبيق مرتين
+gradio>=5.0,<6
+transformers
+torch
+sentencepiece
+sacremoses
+openai
+tiktoken
+huggingface_hub
