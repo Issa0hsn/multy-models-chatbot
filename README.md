@@ -27,4 +27,4 @@ git clone https://github.com/Issa0hsn/multy-models-chatbot
 cd chatbot
 pip install -r requirements.txt
 
-or go to [here](https://huggingface.co/spaces/isahsn/MultyModelsChatbot)
+or [ visit my space](https://huggingface.co/spaces/isahsn/MultyModelsChatbot)
