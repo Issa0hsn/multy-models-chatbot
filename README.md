@@ -39,5 +39,6 @@ cd chatbot
 
 pip install -r requirements.txt
 
-python chatbot.py
-or [ visit my space](https://huggingface.co/spaces/isahsn/MultyModelsChatbot)
+python chatbot2.py
+
+or just [ visit my space](https://huggingface.co/spaces/isahsn/MultyModelsChatbot)
