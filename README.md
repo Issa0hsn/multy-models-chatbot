@@ -1,8 +1,8 @@
 # multy-models-chatbot
 A smart chatbot based on local models to reduce dependence on external servers.
 ## this chatbot use:
-  *Qwen 3.5 -2b as a local model (open-weights) working on your own hardware what gives you the independence and full control but a litlle bet slower.
-  *GPT-5 as proprietary model (closed-weights) working on OpenAI servers that makes it leighter and faster but you have no more access to the weights like open-weights .
+  * Qwen open-weights model working on your own hardware (or hf space) what gives you the independence and full control but a little bet slower.
+  * GPT-5 as proprietary model (closed-weights) working on OpenAI servers that makes it leighter and faster but you have no more access to the weights like open-weights .
 
 # Learning Journal
 ___
