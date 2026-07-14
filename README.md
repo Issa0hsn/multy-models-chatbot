@@ -34,7 +34,10 @@ big models on a insufficient memory(RAM/VRAM) would be allways cause this proble
 # how to run:
 ___
 git clone https://github.com/Issa0hsn/multy-models-chatbot 
+
 cd chatbot
+
 pip install -r requirements.txt
 
+python chatbot.py
 or [ visit my space](https://huggingface.co/spaces/isahsn/MultyModelsChatbot)
