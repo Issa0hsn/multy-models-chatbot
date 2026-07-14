@@ -33,7 +33,7 @@ MAX_CHAT_TOKENS = 4096
 # بهذا نضمن وصول جواب فعلي حتى لو أطال النموذج في التفكير.
 THINK_BUDGET  =512
 ANSWER_BUDGET =512
-THINK_END_ID  = 151668   # رمز </think> في مُرمِّز Qwen3
+THINK_END_ID  = 248069   # رمز </think> في مُرمِّز Qwen3
 
 _qwen_models = {}   # سجلّ نماذج Qwen المحمّلة عبر Transformers
 
